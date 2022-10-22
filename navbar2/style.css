@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: greenyellow;
+    color: white;
+    display: flex;
+}
+.navbar a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 15px;
+}
+.navbar a:hover{
+    color: greenyellow;
+    background-color: white;
+}

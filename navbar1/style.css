@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+}
+.amci{
+    background-color: grey;
+    display: flex;
+}
+.amci a{ 
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.amci a:hover{
+    background-color: skyblue;
+    color: black;
+}
+.amci a.active {
+    background-color: #216db4;
+    color: white;
+  }

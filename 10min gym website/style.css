@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+    height: 100%;
+}
+.amci{
+    background-color: rgb(103, 158, 22);
+    display: flex;
+    align-items: center;
+}
+.amci a{ 
+    color: beige;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.amci a:hover{
+    background-color: white;
+    color: black;
+}
+.amci a.active {
+    background-color: #216db4;
+    color: white;
+}
+.logo{
+    cursor: pointer;
+    padding: 14px 16px;
+    width: 70px;
+}
+.main-div{
+    background-image: url(atko5.png);
+    background-size: cover;
+    width: 100%;
+    height: 120%;
+}  
+aside{
+    height: auto;
+    width: 200px;
+    float: right;
+    border: 2px solid greenyellow;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+aside h1{
+    background-color: greenyellow;
+    margin-top: 0;
+}
+aside p{
+    color: green;
+    overflow: scroll;
+}
+aside footer{
+    background-color: black;
+    color: green;
+}
+    

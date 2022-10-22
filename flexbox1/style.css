@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+}
+.klasa1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    background-color: black;
+}
+.amci{
+    background-color: black;
+    border-right: 1px solid white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+a{
+    color: antiquewhite;
+    padding: 28px;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
