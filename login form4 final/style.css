@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #242826;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #242826;
+    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
+    border-radius: 10px;
+}
+.login > h2{
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#txt{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.user > label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    color: white;
+    transition: .5s;
+}
+#txt:focus~label{
+    top: -85px;
+    left: 0;
+    color: #8f7cec;
+    font-size: 12px;
+}

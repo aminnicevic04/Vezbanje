@@ -1,0 +1,63 @@
+#pass{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.password > label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    color: white;
+    transition: .5s;
+}
+#pass:focus~label{
+    top: -85px;
+    left: 0;
+    color: #8f7cec;
+    font-size: 12px;
+}
+.submit{
+    padding: 10px 20px;
+    color: #CBB;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #8f7cec;
+    margin: auto;
+}
+.submit:hover{
+    background-color: #8f7cec;
+    color: white;
+    border: 5px;
+    box-shadow: 0px 0px 50px #8f7cec;
+}
+.button{
+    display: flex;
+    margin-top: 20px;
+}
+.register{
+    font: 14px;
+    text-decoration:none;
+    color: #cbb;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.register p{
+    cursor: pointer;
+}
+.register > a{
+    margin: auto;
+    color: #8f7cec;
+    text-decoration:none;
+}
+
+
+
+
